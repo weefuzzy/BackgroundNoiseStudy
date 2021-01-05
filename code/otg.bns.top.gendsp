@@ -1,0 +1,396 @@
+{
+	"patcher" : 	{
+		"fileversion" : 1,
+		"appversion" : 		{
+			"major" : 8,
+			"minor" : 1,
+			"revision" : 3,
+			"architecture" : "x64",
+			"modernui" : 1
+		}
+,
+		"classnamespace" : "dsp.gen",
+		"rect" : [ 34.0, 79.0, 1218.0, 722.0 ],
+		"bglocked" : 0,
+		"openinpresentation" : 0,
+		"default_fontsize" : 12.0,
+		"default_fontface" : 0,
+		"default_fontname" : "Arial",
+		"gridonopen" : 1,
+		"gridsize" : [ 15.0, 15.0 ],
+		"gridsnaponopen" : 1,
+		"objectsnaponopen" : 1,
+		"statusbarvisible" : 2,
+		"toolbarvisible" : 1,
+		"lefttoolbarpinned" : 0,
+		"toptoolbarpinned" : 0,
+		"righttoolbarpinned" : 0,
+		"bottomtoolbarpinned" : 0,
+		"toolbars_unpinned_last_save" : 0,
+		"tallnewobj" : 0,
+		"boxanimatetime" : 200,
+		"enablehscroll" : 1,
+		"enablevscroll" : 1,
+		"devicewidth" : 0.0,
+		"description" : "",
+		"digest" : "",
+		"tags" : "",
+		"style" : "",
+		"subpatcher_template" : "",
+		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-17",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1030.0, 527.0, 101.0, 22.0 ],
+					"text" : "gen @gen thresh"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-26",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1018.0, 656.0, 42.0, 22.0 ],
+					"text" : "out 10"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-25",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 958.879743942214191, 656.0, 35.0, 22.0 ],
+					"text" : "out 9"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-24",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1017.0, 101.0, 150.0, 20.0 ],
+					"text" : "Subpatches for debugging"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-21",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 905.879743942214191, 656.0, 35.0, 22.0 ],
+					"text" : "out 8"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-22",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 821.03978052189791, 648.0, 35.0, 22.0 ],
+					"text" : "out 7"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-20",
+					"maxclass" : "newobj",
+					"numinlets" : 8,
+					"numoutlets" : 8,
+					"outlettype" : [ "", "", "", "", "", "", "", "" ],
+					"patching_rect" : [ 1018.0, 180.599999999999994, 107.0, 22.0 ],
+					"text" : "gen @gen outputs"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-13",
+					"maxclass" : "newobj",
+					"numinlets" : 4,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 1018.0, 128.0, 100.0, 22.0 ],
+					"text" : "gen @gen grains"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-16",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1018.0, 338.399999999999977, 119.0, 22.0 ],
+					"text" : "gen @gen gatedelay"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-15",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 700.19981710158163, 648.0, 35.0, 22.0 ],
+					"text" : "out 6"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-14",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 579.359853681265349, 648.0, 35.0, 22.0 ],
+					"text" : "out 5"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-12",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1018.0, 233.199999999999989, 110.0, 22.0 ],
+					"text" : "gen @gen sampler"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-11",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 458.519890260949012, 648.0, 35.0, 22.0 ],
+					"text" : "out 4"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-10",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 337.679926840632675, 648.0, 35.0, 22.0 ],
+					"text" : "out 3"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-3",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 216.839963420316337, 648.0, 35.0, 22.0 ],
+					"text" : "out 2"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-9",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 5,
+					"outlettype" : [ "", "", "", "", "" ],
+					"patching_rect" : [ 1018.0, 285.799999999999955, 109.0, 22.0 ],
+					"text" : "gen @gen controls"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-8",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1018.0, 391.0, 91.0, 22.0 ],
+					"text" : "gen @gen hpf2"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-7",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 1018.0, 473.0, 92.0, 22.0 ],
+					"text" : "buffer memory2"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-6",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 1018.0, 446.0, 92.0, 22.0 ],
+					"text" : "buffer memory1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"code" : "//highpass + scaling on inputs \r\nfilterinputs(mic1,mic2,f,g)\r\n{\r\n\treturn hpf2(mic1,f,0.707) * g, \r\n\t\t   hpf2(mic2,f,0.707) * g; \t\r\n}\r\n\r\n//Settable params \r\nParam controlGain(1, min=0.1,max=100); \r\nParam samplerGain(10, min=0.1, max=100); \r\nParam grainsGain(1, min=0.1, max=100); \r\nParam distance(1,min=0, max=20); //nb maybe this max is too restrictive?  \r\nParam threshold(0.75,min=0, max=1); \r\nParam speakerPairs(3, min=1,max=4); \r\nHistory inAmp0(1); \r\nHistory lag(0); \r\nHistory trig(0); \r\nHistory outAmpGrain(0); \r\n\r\n//20\" ramp for filling buffers with poke\r\nindex = counter(1,0,20*samplerate); \r\n\r\n//HPF and scale input depending on values of lag, inAmp0 \r\nhighpass_f = 100 + (lag * 100); \r\nmic1, mic2 = filterinputs(in1,in2,highpass_f,inAmp0); \r\n\r\n//update core control signals \r\ninAmp0, sw, lag, trig, thr = controls((mic1 + mic2), threshold=threshold);\r\n\r\n//big delay line for input audio, gated by sw\r\ndelay_in1 = gatedelay(mic1, sw); \r\ndelay_in2 = gatedelay(mic2, sw); \r\n\r\n//extra control signals using delayed sig\r\ninAmp2 = envelope(controlGain * (delay_in1 + delay_in2),delaytime=20); \r\ninAmp1 = 1 - inAmp2; \r\n\r\n//write to sampler buffer\r\npoke(memory1, inAmp2 * (mic1 + mic2), index); \r\n\r\n//trigger sampler plyabck via sw, with set delay + lag-based playback rate\r\nev = change(sw) == 1; \r\nsample1 = sampler(ev,lag, mult=10.1, delaytime=6666); \r\nsample2 = sampler(ev,lag, mult=10.0, delaytime=13333); \r\nsample3 = sampler(ev,lag, mult=4.99, delaytime=10000); \r\n\r\n//write high passed sampler playback to grain buffer\r\nsamps_hp = hpf2((sample1 + sample2 + sample3) * samplerGain,100 + (lag * 1000),0.7); \r\npoke(memory2,samps_hp, index);\r\n\r\n//proceed through grain buffer based on lag\r\ngrainPointer = phasor(1/(lag*40)); \r\n//grain playback \r\ng1, g2 = grains(1-inAmp0, grainPointer,inAmp2,inAmp2); \r\ng1 *= (0.5 * ((1-outAmpGrain)*(2*inAmp0))); \r\ng2 *= (0.5 * ((1-outAmpGrain)*(2*inAmp0))); \r\noutAmpGrain = envelope(controlGain * (g1 + g2),delaytime=1); \r\n\r\n//output routing / delays \r\nsig1 = delay_in1 * inAmp1; \r\nsig2 = delay_in2 * inAmp1; \r\n\r\nsig3 = sample1 * samplerGain * inAmp1; \r\nsig4 = sample2 * samplerGain * inAmp1; \r\nsig5 = sample3 * samplerGain * inAmp1; \r\nsig6 = g1; \r\nsig7 = g2;\r\n\r\nout1, out2, out3, out4, out5, out6, out7, out8 = outputs(sig1,sig2,sig3,sig4,sig5,sig6,sig7, lag, speakerpairs=speakerPairs, distance=distance); \r\n\r\nout9 = inAmp0; \r\nout10 = thr; ",
+					"fontface" : 0,
+					"fontname" : "<Monospaced>",
+					"fontsize" : 12.0,
+					"id" : "obj-5",
+					"maxclass" : "codebox",
+					"numinlets" : 2,
+					"numoutlets" : 10,
+					"outlettype" : [ "", "", "", "", "", "", "", "", "", "" ],
+					"patching_rect" : [ 96.0, 124.0, 865.0, 509.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 97.0, 65.0, 28.0, 22.0 ],
+					"text" : "in 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-2",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 942.0, 83.0, 28.0, 22.0 ],
+					"text" : "in 2"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-4",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 96.0, 648.0, 35.0, 22.0 ],
+					"text" : "out 1"
+				}
+
+			}
+ ],
+		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 1 ],
+					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-10", 0 ],
+					"source" : [ "obj-5", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-11", 0 ],
+					"source" : [ "obj-5", 3 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-14", 0 ],
+					"source" : [ "obj-5", 4 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-15", 0 ],
+					"source" : [ "obj-5", 5 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-21", 0 ],
+					"source" : [ "obj-5", 7 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-22", 0 ],
+					"source" : [ "obj-5", 6 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-25", 0 ],
+					"source" : [ "obj-5", 8 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-26", 0 ],
+					"source" : [ "obj-5", 9 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
+					"source" : [ "obj-5", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"source" : [ "obj-5", 0 ]
+				}
+
+			}
+ ]
+	}
+
+}
